@@ -24,13 +24,13 @@ pip install -r requirements.txt
 python analyze_kg.py --snap-dir sample_data/T1.0 --start 0 --output-dir results
 
 # Basic usage
-python analyze_kg.py --snap-dir T1.0/2_restart
+python analyze_kg.py --snap-dir T1.0
 
 # Specify output directory and parameters
-python analyze_kg.py --snap-dir T1.0/2_restart --output-dir results --start 1000
+python analyze_kg.py --snap-dir T1.0 --output-dir results --start 1000
 
 # Multiple NU values
-python analyze_kg.py --snap-dir T1.0/2_restart --nu 10,20,40
+python analyze_kg.py --snap-dir T1.0 --nu 10,20,40
 
 # Show help
 python analyze_kg.py --help
